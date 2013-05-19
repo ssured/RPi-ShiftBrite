@@ -19,10 +19,10 @@ producing SPI from this, plus a latch line on CE0.
 
 Pinout (ShiftBrite pin / color --> RPi GPIO):
 * Gnd/White --> Ground
-* D0/Blue --> GPIO #10 (MOSI)
-* L0/Green --> GPIO #8 (CE0)
-* E0/Yellow --> Ground
-* C0/Black --> GPIO #11 (CLK)
+* D0/DI/Blue --> GPIO #10 (MOSI)
+* L0/LI/Green --> GPIO #8 (CE0)
+* E0/EI/Yellow --> Ground
+* C0/CI/Black --> GPIO #11 (CLK)
 * V+/Red --> Power
 * GPIO #9 is MISO and is unused.
 
